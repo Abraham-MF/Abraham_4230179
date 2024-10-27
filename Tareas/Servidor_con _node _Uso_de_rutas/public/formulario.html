@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        body{
+            background-color: whitesmoke;
+        }
+
+    form{
+    background-color: lightgray;
+    margin-top: 500px;
+    position: relative;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-color: black;
+    box-shadow: 0 5px  40px black;
+    border: 3px;
+    border-radius: 15px;
+    }
+
+    a{
+        background-color: silver;
+        color: black;
+        border-radius: 10px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    </style>
+</head>
+<body>
+
+        <form action="">
+            <br>
+            <div>
+                <label for="nombre_usuario">Ingresa tu nombre(s): </label>
+                <br>
+                <input type="text" name="nombre_usuario" required maxlength="30" placeholder="ingresa tu nombre">
+            </div>
+            <br>
+            <div>
+                <label for="apellido_usuario">ingresa tu primer apellido</label>
+                <br>
+                <input type="text" name="apellido_usuario" required maxlength="30" placeholder="ingresa tu apeido">
+            </div>
+            <br>
+            <div>
+                <label for="mail">Ingresa tu correo electronico: </label>
+                <br>
+                <input type="email" name="mail" required maxlength="100" placeholder="ingresa tu correo">
+            </div>
+            <br>
+            <div>
+                <label for="mail">telefono: </label>
+                <br>
+                <input type="tel" name="telefono" required maxlength="10" placeholder="ingresa tu telefono">
+            </div>
+            <br>
+            <button type="submit" name="submit">Registrarme</button>
+            <button type="reset"> vaciar</button>
+            </form>
+            <br>
+
+        <center>
+            <a href="index.html" typr="button">Inicio</a>
+            <a href="informacion.html">información</a>
+        </center>
+    
+</body>
+</html>
