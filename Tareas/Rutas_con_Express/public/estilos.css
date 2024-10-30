@@ -1,0 +1,60 @@
+.calcularora{
+
+    width: 450px;
+    height: 420px;
+    margin: 50px auto;
+    border: 2px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: lightblue;
+}
+
+input[type="button"]{
+    width: 60PX;
+    height: 60PX;
+    margin: 20PX;
+    font-size: 20PX;
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+.bodycal{
+    background-color: teal;
+}
+
+.form_body{
+    font-family: Arial,sans-serif;
+    background-color: #0d1117;
+    margin: auto;
+    padding: 0;
+}
+
+.forms{
+    position: relative;
+    max-width: 400px;
+    height: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border-color: whitesmoke;
+    box-shadow: 0 5px 20px aliceblue;
+    border: 3px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.buttton{
+
+    display: inline-block;
+    margin-top: 25px;
+    margin-inline-start: 59px;
+    background-color: gray;
+    padding: 20px 35px;
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 100px;
+    
+}
