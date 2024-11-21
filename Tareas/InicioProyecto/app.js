@@ -75,7 +75,7 @@ app.post('/add', (req, res) => {
 //editar usuario
 app.get('/edit/:id', (req, res) => {
     const { id } = req.params;
-    const query = 'SELECT * FROM users WHERE id = ?';
+    const query = 'SELECT * FROM users WHERE id_users = ?';
     db.query(query, [id], (err, results) => {
         if (err) {
             console.error('Error fetching user:', err);
@@ -90,7 +90,7 @@ app.get('/edit/:id', (req, res) => {
 
 app.get('/delete/:id', (req, res) => {
     const { id } = req.params;
-    const query = 'DELETE FROM users WHERE id = ?';
+    const query = 'DELETE FROM users WHERE id_users = ?';
     db.query(query, [id], (err) => {
         if (err) {
             console.error('Error deleting user:', err);
