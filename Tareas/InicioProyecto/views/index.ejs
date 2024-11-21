@@ -17,12 +17,12 @@
         </tr>
         <% users.forEach(user => { %>
         <tr>
-            <td><%= user.id %></td>
+            <td><%= user.id_users %></td>
             <td><%= user.nombre %></td>
             <td><%= user.email %></td>
             <td>
-                <a href="/edit/<%= user.id %>">Editar</a> |
-                <a href="/delete/<%= user.id %>">Eliminar</a>
+                <a href="/edit/<%= user.id_users %>">Editar</a> |
+                <a href="/delete/<%= user.id_users %>">Eliminar</a>
             </td>
         </tr>
         <% }); %>
